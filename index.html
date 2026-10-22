@@ -3,19 +3,107 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Layout Styles with Aside</title>
+<title>Nature Explorer</title>
 
 <style>
+body {
+    width: 900px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    border: 2px solid #333;
+}
 
-/* Write your CSS here */
+header {
+    background: #2E8B57;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
 
+nav {
+    background: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+section {
+    float: left;
+    width: 65%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+aside {
+    float: right;
+    width: 30%;
+    background: #f2f2f2;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer {
+    clear: both;
+    background: #2E8B57;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    color: #2E8B57;
+}
 </style>
-
 </head>
 
 <body>
 
-<!-- Write your HTML code here -->
+<header>
+    <h1>Nature Explorer</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Wildlife</a>
+    <a href="#">Gallery</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+    <h2>Discover Nature</h2>
+
+    <p>
+        Nature is full of beautiful forests, rivers, mountains, and wildlife.
+        Exploring nature helps us understand the importance of protecting our
+        environment and preserving natural resources.
+    </p>
+
+    <p>
+        Spending time outdoors improves physical and mental health.
+        Activities such as hiking, bird watching, and camping allow people
+        to enjoy the beauty of nature while learning about different plants
+        and animals.
+    </p>
+</section>
+
+<aside>
+    <h2>Quick Facts</h2>
+
+    <ul>
+        <li> Trees produce oxygen.</li>
+        <li> Birds help spread seeds.</li>
+        <li> Earth has millions of species.</li>
+        <li> Recycling protects nature.</li>
+    </ul>
+</aside>
+
+<footer>
+    <p>&copy; 2026 Nature Explorer. All Rights Reserved.</p>
+</footer>
 
 </body>
 </html>
